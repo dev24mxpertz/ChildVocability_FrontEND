@@ -1,0 +1,67 @@
+.SignUp_div {
+  height: 92vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Signup_form {
+  width: 30%;
+  /* background-color: red; */
+}
+.inputSignup {
+  padding: 10px !important;
+}
+.Signup_form > h6 {
+  font-size: 14px;
+  text-align: start;
+}
+.Signup_form > p {
+  font-size: 10px;
+  text-align: start;
+}
+.form-check {
+  display: flex !important;
+  justify-content: center !important;
+  /* align-items: center !important; */
+}
+.form-check > p {
+  margin-top: 3px;
+  font-size: 12px;
+}
+
+.linediv {
+  width: 30%;
+  /* background: #000; */
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.linediv > span {
+  margin-bottom: 8px;
+  font-size: 12px;
+}
+.linediv_padding {
+  padding: 1px;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 35%;
+  background-color: gray;
+}
+
+@media only screen and (min-width: 298px) and (max-width: 1024px) {
+  .Signup_form {
+    width: 68%;
+    height: initial;
+  }
+  .SignUp_div {
+    height: initial;
+    margin-top: 100px;
+  }
+  .linediv {
+    width: 68%;
+  }
+}

@@ -1,0 +1,937 @@
+/* ------------------------------------------------------------------------------------- LandingNav  */
+
+
+.LogoImage{
+  width: 60px;
+  border-radius: 80px;
+}
+.LandingNav {
+  width: 100%;
+  /* padding: 5px; */
+  padding: 0px 50px;
+  height: 8vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+ 
+  /* box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); */
+
+}
+
+
+.LandingNav_left_div {
+  background-color: white;
+}
+
+.LandingNav_right_div {
+  width: 90%;
+  height: 100%;
+  padding: 0px 20px;
+  /* background-color: red; */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size:16px;
+  color: #767776;
+
+}
+
+.LandingNav_right_div_link {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #767776;
+  margin: 10px 20px;
+  
+}
+.LandingNav_right_div_link:hover {
+  color: #0d6efd;
+}
+
+.paddingbtn {
+  padding: 5px 15px !important;
+  font-size: 14px !important;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------- LandingHome_div */
+@media (max-width: 1023px) {
+  .LandingHome_right_div {
+    display: none;
+  }
+}
+.LandingHome_div {
+  width: 100%;
+  height: 75vh;
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.LandingHome_left_div {
+  width: 50%;
+  height: 100%;
+  /* background-color: pink; */
+  padding: 80px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.LandingHome_left_div > h1 {
+  font-size: 30px;
+  text-align: start;
+}
+
+.LandingHome_left_div > p {
+  font-size: 16px;
+  text-align: start;
+  /* width: 75%; */
+}
+
+.LandingHome_right_div {
+  width: 50%;
+  height: 100%;
+  /* background-color: orange; */
+  padding: 50px;
+}
+
+.LandingHome_right_div > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.btn-width {
+  width: 200px;
+  padding: 10px !important;
+}
+/* -------------------------------------------------------------------------------------------------   LandingWhyBrain  ---------------- */
+@media (max-width: 1023px) {
+  .LandingWhyBrain_left_div {
+    display: none;
+  }
+}
+.LandingWhyBrain_div {
+  width: 100%;
+  height: 70vh;
+  /* background-color: red; */
+  display: flex;
+  /* padding: 80px; */
+}
+
+.LandingWhyBrain_left_div {
+  width: 50%;
+  min-height: 100%;
+  /* background-color: lightblue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.LandingWhyBrain_left_div > img {
+  width: 100%;
+  height: 100%;
+  /* object-fit: cover; */
+}
+
+.LandingWhyBrain_right_div {
+  width: 50%;
+  min-height: 100%;
+  padding: 30px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.LandingWhyBrain_right_div > h1 {
+  text-align: start;
+  font-size: 30px;
+}
+
+.LandingWhyBrain_right_div > p {
+  /* width: 90%; */
+  text-align: start;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------ LandingContent  */
+
+.LandingContent_div {
+  width: 100%;
+  height: 90vh;
+  /* background-color: lightblue; */
+  display: flex;
+  flex-direction: column;
+}
+
+.LandingContent_upper_div {
+  width: 100%;
+  height: 15vh;
+  background-color: #f9f5f8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  padding: 20px;
+}
+.LandingContent_lower_div {
+  width: 100%;
+  height: 70%;
+  padding: 20px 20px;
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.LandingContent_lower_left_div {
+  width: 50%;
+  height: 90%;
+  border-top-left-radius: 60px;
+  border-bottom-left-radius: 60px;
+  overflow: hidden;
+}
+
+.LandingContent_lower_left_div > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.LandingContent_lower_right_div {
+  width: 50%;
+  height: 100%;
+  /* background-color: lightblue; */
+  padding: 20px 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.LandingContent_lower_right_div > p {
+  text-align: start;
+  /* width: 80%; */
+}
+
+/* ------------------------------------------------------------------------------------------------------------   LandingCommunity_div  */
+
+.LandingCommunity_Slider_div {
+  width: 50%;
+}
+
+.LandingCommunity_div {
+  width: 100%;
+  background-color: #e6f0ff;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+
+}
+
+.LandingCommunity_div > h2 {
+  font-size: 30px;
+  margin: 20px;
+}
+
+.LandingCommunity_message_box {
+  /* height: 48vh; */
+  background-color: white;
+  border-radius: 30px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 100px 60px;
+}
+
+.LandingCommunity_message_box > img {
+  position: absolute;
+  top: 5%;
+  right: 3%;
+}
+
+.LandingCommunity_message_box > p {
+  text-align: start;
+}
+
+/* -------------------------------------------------------------------------------------------------   LandingAbout  ---------------- */
+
+@media (max-width: 1023px) {
+  .LandingContent_lower_left_div {
+    display: none;
+  }
+  .LandingAbout_right_div{
+    display: none;
+  }
+}
+.LandingAbout_div {
+  width: 100%;
+  height: 70vh;
+  /* background-color: red; */
+  display: flex;
+  padding: 80px;
+}
+
+.LandingAbout_left_div {
+  width: 50%;
+  min-height: 100%;
+  /* background-color: lightblue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.LandingAbout_left_div > h1 {
+  text-align: start;
+  font-size: 30px;
+}
+
+.LandingAbout_left_div > p {
+  width: 80%;
+  text-align: start;
+}
+
+.LandingAbout_right_div {
+  width: 50%;
+  min-height: 100%;
+  /* background-color: pink; */
+}
+
+.LandingAbout_right_div > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------ LandingAboutCriteria ----------- */
+
+.LandingAboutCriteria_div {
+  width: 100%;
+  /* height: 70vh; */
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.LandingAboutCriteria_div > h2 {
+  font-size: 30px;
+
+}
+.LandingAboutCriteria_content_divHead > h2 {
+  margin: 20px;
+
+
+}
+.LandingAboutCriteria_content_div {
+  width: 100%;
+  /* height: 75%; */
+  /* background-color: lightblue; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+}
+
+.LandingAboutCriteria_content_left_div {
+  width: 48%;
+  /* height: 100%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: red; */
+  padding: 20px;
+}
+
+.LandingAboutCriteria_content_right_div {
+  width: 48%;
+  /* height: 100%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: red; */
+  padding: 20px;
+}
+.LandingAboutCriteria_content_box {
+  width: 100%;
+  /* height: 40vh; */
+  /* border: 1px solid black; */
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+}
+
+.LandingAboutCriteria_content_box_img {
+  padding: 10px;
+  width: 50%;
+  height: 100%;
+  /* background-color: black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.LandingAboutCriteria_content_box_img > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.LandingAboutCriteria_content_box_content {
+  display: flex;
+  /* width: 75%; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px 8px;
+  margin: 10px;
+}
+.LandingAboutCriteria_content_box_content > h4 {
+  color: #3686c3;
+}
+
+.LandingAboutCriteria_content_box_content > p {
+  text-align: start;
+}
+
+.landingWhyBrainCriteria_paragraph{
+
+  margin: 0px 20px;
+}
+/* -----------------------------------------------------------------------------------------------  LandingPricing_div --------- */
+.BasicSeller_inner_upper_div2 {
+  position: relative;
+}
+
+.badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #007bff; /* Blue */
+  color: white;
+  padding: 4px 8px;
+  border-radius: 50px;  
+  font-size: 12px;
+}
+
+.LandingPricing_div {
+  width: 100%;
+  /* height: 100vh; */
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 50px;
+  position: relative;
+}
+
+.Pricing_div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  /* background-color: yellow; */
+}
+
+.BasicSeller_div {
+  width: 400px;
+  /* height: 68vh; */
+  background-color: #e6f0ff;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  overflow: hidden;
+  padding: 10px;
+}
+
+.BasicSeller_inner_div {
+  width: 100%;
+  height: 90%;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.BasicSeller_inner_upper_div {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.BasicSeller_inner_upper_div > h4 {
+  font-weight: 700;
+}
+
+.BasicSeller_inner_upper_div > h6 {
+  font-size: 18px;
+  font-weight: 700;
+}
+.BasicSeller_inner_div_line {
+  padding: 1px;
+  width: 90%;
+  background-color: grey;
+}
+
+.BasicSeller_inner_div_pair {
+  width: 90%;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.BasicSeller_inner_div_pair > i {
+  color: #3686c3;
+}
+
+.BasicSeller_inner_div_pair > span {
+  font-size: 15px;
+  font-weight: 700;
+}
+.BasicSeller_inner_upper_div > p{
+  color: #a7a7a7;
+}
+.BasicSeller_div2 {
+  width: 400px;
+  /* height: 73vh; */
+  background-color: #2a8efe;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  overflow: hidden;
+  padding: 10px;
+  margin-bottom: 1rem;
+}
+
+.BasicSeller_inner_div2 {
+  width: 100%;
+  height: 95%;
+  background-color: #9fc4ff;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.BasicSeller_inner_upper_div2 {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.BasicSeller_inner_upper_div2 > h4 {
+  font-weight: 700;
+  color: #0061bb;
+}
+
+.BasicSeller_inner_upper_div2 > h6 {
+  font-size: 18px;
+  font-weight: 700;
+}
+.BasicSeller_inner_div_line2 {
+  padding: 1px;
+  width: 90%;
+  background-color: grey;
+}
+
+.BasicSeller_inner_div_pair2 {
+  width: 90%;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.BasicSeller_inner_div_pair2 > i {
+  color: #3686c3;
+}
+
+.BasicSeller_inner_div_pair2 > span {
+  font-size: 15px;
+  font-weight: 700;
+  text-align: start;
+}
+
+.BasicSeller_inner_upper_div > h4{
+color: #c9c9c9;
+}
+
+.get_started{
+  border-radius: 40px !important;
+  margin-top: 0px 10px;
+  padding:  10px !important;
+
+}
+/* ------------------------------------------------------------------------------------------   LandingBanner_div --------------- */
+
+.LandingBanner_div {
+  width: 100%;
+  height: 40vh;
+  /* background-color: #2a8efe; */
+}
+
+.LandingBanner_upper_div {
+  width: 100%;
+  height: 80%;
+  background-color: #2a8efe;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 200px;
+}
+
+.LandingBanner_left_section {
+  width: 60%;
+  /* background-color: black; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.LandingBanner_left_section > p:nth-child(1) {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: start;
+  color: white;
+}
+.LandingBanner_left_section > p:nth-child(2) {
+  font-size: 16px;
+  text-align: start;
+  color: white;
+}
+
+.strbtn {
+  width: 14%;
+}
+
+.LandingBanner_lower_div {
+  width: 100%;
+  height: 20%;
+  background-color: #e6f0ff;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-top: 20px;
+}
+
+/* ----------------------------------------------------------------------------------------    LandingQuestionPage -----------  */
+
+.LandingQuestionPage {
+  width: 100%;
+  /* height: 100vh; */
+  background-color: #e6f0ff;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.LandingQuestionPage_box {
+  width: 70%;
+  /* height: 20vh; */
+  background-color: white;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.LandingQuestionPage_box_upper {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* ---------------------------------------------------------------------------------------   LandingFooter_div ----------- */
+
+.LandingFooter_div {
+  width: 100%;
+  height: 30vh;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.LandingFooter_div_line {
+  padding: 1px;
+  width: 100%;
+  background-color: grey;
+}
+
+.LandingFooter_div_inner {
+  width: 70%;
+  /* background-color: black; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.LandingNav_third_div {
+  display: none;
+}
+
+@media only screen and (min-width: 298px) and (max-width: 1024px) {
+  .LandingNav_right_div {
+    display: none;
+  }
+  .LandingNav_third_div {
+    display: initial;
+  }
+  .LandingNav {
+    padding: 0px 8px;
+  }
+
+  /* -------------------------------------------------------------------------------------  LandingHome   */
+
+  .LandingHome_div {
+    height: inherit;
+    flex-direction: column;
+  }
+  .LandingHome_left_div {
+    width: 100%;
+    padding: 20px;
+    align-items: center;
+  }
+  .LandingHome_left_div > h1 {
+    text-align: center;
+  }
+  .LandingHome_left_div > p {
+    text-align: center;
+    width: 100%;
+  }
+  .LandingHome_right_div {
+    width: 100%;
+    padding: 20px;
+  }
+
+  /* ------------------------------------------------------------------------------------ .Signup_form  ---------------- */
+
+  .Signup_form {
+    width: 68%;
+  }
+
+  /* -------------------------------------------------------------------------------------  Landing Content    */
+  .LandingContent_div {
+    height: initial;
+    flex-direction: column;
+  }
+  .LandingContent_lower_div {
+    padding: 0px;
+    flex-direction: column;
+  }
+  .LandingContent_lower_left_div {
+    width: 95%;
+    margin-top: 20px;
+  }
+  .LandingContent_lower_right_div {
+    width: 100%;
+    padding: 20px;
+    align-items: center;
+  }
+  .LandingContent_lower_right_div > p {
+    width: 95%;
+    /* inline-size: fit-content; */
+  }
+
+  /* --------------------------------------------------------------------------------   .LandingCommunity_div    */
+
+  .LandingCommunity_div {
+    height: initial;
+  }
+  .LandingCommunity_Slider_div {
+    width: 85%;
+  }
+  .LandingCommunity_message_box {
+    /* height: 60vh; */
+    padding: 40px 50px;
+  }
+  /* -----------------------------------------------------------------------------------   .LandingAbout_div  */
+
+  .LandingAbout_div {
+    height: initial;
+    flex-direction: column;
+    padding: 0px;
+  }
+  .LandingAbout_left_div {
+    width: 100%;
+    align-items: center;
+    padding: 20px 5px;
+  }
+  .LandingAbout_right_div {
+    width: 100%;
+    padding: 5px;
+  }
+
+  /* -------------------------------------------------------------------------------------   LandingAboutCriteria_div */
+
+  .LandingAboutCriteria_div {
+    height: initial;
+  }
+  .LandingAboutCriteria_content_div {
+    height: initial;
+    padding: 0px;
+    flex-direction: column;
+  }
+  .LandingAboutCriteria_content_left_div {
+    width: 100%;
+    height: initial;
+    padding: 25px;
+    flex-direction: column;
+  }
+  .LandingAboutCriteria_content_box {
+    flex-direction: column;
+    height: initial;
+    padding: 0px;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .LandingAboutCriteria_content_box_content {
+    align-items: center;
+  }
+  .LandingAboutCriteria_content_box_content > p {
+    text-align: center;
+  }
+  .LandingAboutCriteria_content_right_div {
+    width: 100%;
+  }
+
+  /* -----------------------------------------------------------------------------------   LandingPricing ----------  */
+  .LandingPricing_div {
+    height: initial;
+  }
+  .Pricing_div {
+    align-items: center;
+    flex-direction: column;
+  }
+  .BasicSeller_div {
+    height: initial;
+  }
+  .BasicSeller_div2 {
+    height: initial;
+    margin-top: 20px;
+  }
+
+  /* ------------------------------------------------------------------------------------------   LandingBanner ---------- */
+
+  .LandingBanner_div {
+    height: initial;
+  }
+  .LandingBanner_upper_div {
+    padding: 5px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
+  }
+  .LandingBanner_left_section {
+    width: 85%;
+  }
+  .strbtn {
+    width: 40%;
+  }
+  .LandingBanner_lower_div > h2 {
+    font-size: 35px;
+    padding: 20px;
+  }
+
+  /* *---------------------------------------------------------------------------------------  LandingQuestionPage  -------------  */
+
+  .LandingQuestionPage {
+    padding: 0px;
+  }
+
+  /* ----------------------------------------------------------------------------------------   .LandingWhyBrain_div  --------------   */
+/* CSS for screens smaller than 1024px */
+@media (max-width: 1023px) {
+  .LandingWhyBrain_left_div {
+    display: none;
+  }
+}
+
+  
+  .LandingWhyBrain_div {
+    flex-direction: column;
+    height: initial;
+  }
+  .LandingWhyBrain_left_div {
+    width: 100%;
+  }
+  .LandingWhyBrain_right_div {
+    width: 100%;
+    align-items: center;
+  }
+}
+
+
+/* //----------------------------------------------------------------------MEnu mobile------------- */
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #04AA6D;
+  color: white;
+}

@@ -1,0 +1,1654 @@
+@import url("https://fonts.cdnfonts.com/css/century-gothic-paneuropean");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.Home_style {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../public/m2.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.button_div {
+  width: 80%;
+  max-width: 1200px;
+  margin-bottom: 30px;
+  position: relative;
+  /* border: 5px solid  #cab89b; */
+  /* background-color: #E3E8D5; */
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  min-height: 45vh;
+  /* background-color: red; */
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-0%); */
+  /* overflow: hidden; */
+}
+
+/*corner
+.button_div::before{
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  width: 20px;
+  height: 20px;
+  border-bottom: 5px solid #cab89b ;
+  border-right: 5px solid #cab89b ;
+  background-color: #191758;
+  border-radius: 0 0 100% 0;
+} */
+
+/* corner
+
+.button_div::after{
+  content: '';
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  width: 20px;
+  height: 20px;
+  border-left:5px solid #cab89b ;
+  border-bottom:5px solid #cab89b  ;
+  background-color: #1A1955;
+  border-radius: 0 0 0  100% ;
+} */
+
+.btn_content_div {
+  display: flex;
+  flex-wrap: wrap;
+  overflow-x: hidden;
+  overflow-y: auto;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  padding: 2px;
+  max-height: 90vh;
+}
+
+.btn_content_div::-webkit-scrollbar {
+  display: none;
+}
+
+.btn_content_div::before {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: -5px;
+  width: 20px;
+  height: 20px;
+  border-right: 5px solid #cab89b;
+  border-top: 5px solid #cab89b;
+  background-color: #42497d;
+  border-radius: 0 100% 0 0;
+}
+
+.btn_content_div::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  right: -5px;
+  width: 20px;
+  height: 20px;
+  border-left: 5px solid #cab89b;
+  border-top: 5px solid #cab89b;
+  background-color: #485285;
+  border-radius: 100% 0 0 0;
+}
+
+.button_section {
+  /* padding: 20px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: red; */
+}
+
+.line {
+  padding: 0.5px;
+  background-color: #8b7a5f;
+  height: 28vh;
+}
+
+/* ---------------------------------------------------------------btn 1 section  */
+
+.img_div {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+}
+
+.img_div > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.btn1 {
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 15px 50px;
+  border-radius: 15px;
+  border: 5px solid #faf9e5;
+  border-radius: 20px;
+  box-shadow: 0px 8px 5px grey;
+  color: white;
+  font-weight: 600;
+  color: white;
+  font-weight: 600;
+  position: relative;
+  background-color: #4d8bfa;
+  font-family: "Century Gothic Paneuropean", sans-serif;
+  margin-top: 13px;
+}
+
+.btn1::before {
+  content: "Fantasy";
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  right: 1px;
+  bottom: 1px;
+  background-color: #4d8bfa;
+  font-family: "Century Gothic Paneuropean", sans-serif;
+  color: white;
+  border-top: 3px solid white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.mid_div {
+  width: 100%;
+  height: 7vh;
+  border: 2px solid #c7bba8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Century Gothic Paneuropean", sans-serif;
+  font-size: 16px;
+  color: black;
+  font-weight: 600;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-top: 10px;
+}
+
+.btn2 {
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 4px 30px;
+  border-radius: 15px;
+  background-color: #d05655;
+  color: white;
+  font-weight: 600;
+  position: relative;
+  border: none;
+  outline: none;
+  border-bottom: 4px solid #d05655;
+  box-shadow: 0px 8px 5px grey;
+  font-family: "Comic Sans MS", sans-serif;
+  margin-top: 10px;
+}
+
+.btn2::before {
+  content: "";
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  right: 1px;
+  bottom: 1px;
+  border: 1px solid white;
+  border-top: 3px solid white;
+  border-radius: 14px;
+  filter: blur(0.2px);
+  box-shadow: 0px 0px 0px #d05655;
+  font-family: "Comic Sans MS", sans-serif;
+  cursor: pointer;
+}
+
+/* --------------------------------------------------------------------------- btn3 */
+
+.btn3 {
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 15px 60px;
+  border-radius: 15px;
+  border: 5px solid #faf9e5;
+  border-radius: 20px;
+  box-shadow: 0px 8px 5px grey;
+  color: white;
+  font-weight: 600;
+  color: white;
+  font-weight: 600;
+  position: relative;
+  background-color: #218d9f;
+  font-family: "Century Gothic Paneuropean", sans-serif;
+  margin-top: 13px;
+}
+
+.btn3::before {
+  content: "Adventure";
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  right: 1px;
+  bottom: 1px;
+  background-color: #218d9f;
+  font-family: "Century Gothic Paneuropean", sans-serif;
+  color: white;
+  border-top: 3px solid white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.mid_div2 {
+  width: 100%;
+  height: 7vh;
+  border: 2px solid #c7bba8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Century Gothic Paneuropean", sans-serif;
+  font-size: 16px;
+  color: black;
+  font-weight: 600;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-top: 10px;
+}
+
+.btn4 {
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 4px 30px;
+  border-radius: 15px;
+  background-color: #b9498d;
+  color: white;
+  font-weight: 600;
+  position: relative;
+  border: none;
+  outline: none;
+  border-bottom: 4px solid #b9498d;
+  box-shadow: 0px 8px 5px grey;
+  font-family: "Comic Sans MS", sans-serif;
+  margin-top: 10px;
+}
+
+.btn4::before {
+  content: "";
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  right: 1px;
+  bottom: 1px;
+  border: 1px solid white;
+  border-top: 3px solid white;
+  border-radius: 14px;
+  filter: blur(0.2px);
+  box-shadow: 0px 0px 0px #b9498d;
+  font-family: "Comic Sans MS", sans-serif;
+  cursor: pointer;
+}
+
+/* --------------------------------------------------------------------------- btn4 */
+
+.btn5 {
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 15px 50px;
+  border-radius: 15px;
+  border: 5px solid #faf9e5;
+  border-radius: 20px;
+  box-shadow: 0px 8px 5px grey;
+  color: white;
+  font-weight: 600;
+  color: white;
+  font-weight: 600;
+  position: relative;
+  background-color: #a53247;
+  font-family: "Century Gothic Paneuropean", sans-serif;
+  margin-top: 13px;
+}
+
+.btn5::before {
+  content: "Mystry";
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  right: 1px;
+  bottom: 1px;
+  background-color: #a53247;
+  font-family: "Century Gothic Paneuropean", sans-serif;
+  color: white;
+  border-top: 3px solid white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.mid_div3 {
+  width: 100%;
+  height: 7vh;
+  border: 2px solid #c7bba8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Century Gothic Paneuropean", sans-serif;
+  font-size: 16px;
+  color: black;
+  font-weight: 600;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-top: 10px;
+}
+
+.btn6 {
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 4px 30px;
+  border-radius: 15px;
+  background-color: #a94d9a;
+  color: white;
+  font-weight: 600;
+  position: relative;
+  border: none;
+  outline: none;
+  border-bottom: 4px solid #a94d9a;
+  box-shadow: 0px 8px 5px grey;
+  font-family: "Comic Sans MS", sans-serif;
+  margin-top: 10px;
+}
+
+.btn6::before {
+  content: "";
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  right: 1px;
+  bottom: 1px;
+  border: 1px solid white;
+  border-top: 3px solid white;
+  border-radius: 14px;
+  filter: blur(0.2px);
+  box-shadow: 0px 0px 0px #a94d9a;
+  font-family: "Comic Sans MS", sans-serif;
+  cursor: pointer;
+}
+
+/* ----------------------------------------------------------------------------- btn7 */
+
+.btn7 {
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 15px 70px;
+  border-radius: 15px;
+  border: 5px solid #faf9e5;
+  border-radius: 20px;
+  box-shadow: 0px 8px 5px grey;
+  color: white;
+  font-weight: 600;
+  color: white;
+  font-weight: 600;
+  position: relative;
+  background-color: #050a5b;
+  font-family: "Century Gothic Paneuropean", sans-serif;
+  margin-top: 13px;
+}
+
+.btn7::before {
+  content: "Science Fiction";
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  right: 1px;
+  bottom: 1px;
+  background-color: #050a5b;
+  font-family: "Century Gothic Paneuropean", sans-serif;
+  color: white;
+  border-top: 3px solid white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.mid_div4 {
+  width: 100%;
+  height: 7vh;
+  border: 2px solid #c7bba8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Century Gothic Paneuropean", sans-serif;
+  font-size: 16px;
+  color: black;
+  font-weight: 600;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-top: 10px;
+}
+
+.btn8 {
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 4px 30px;
+  border-radius: 15px;
+  background-color: #4c76b6;
+  color: white;
+  font-weight: 600;
+  position: relative;
+  border: none;
+  outline: none;
+  border-bottom: 4px solid #4c76b6;
+  box-shadow: 0px 8px 5px grey;
+  font-family: "Comic Sans MS", sans-serif;
+  margin-top: 10px;
+}
+
+.btn8::before {
+  content: "";
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  right: 1px;
+  bottom: 1px;
+  border: 1px solid white;
+  border-top: 3px solid white;
+  border-radius: 14px;
+  filter: blur(0.2px);
+  box-shadow: 0px 0px 0px #4c76b6;
+  font-family: "Comic Sans MS", sans-serif;
+  cursor: pointer;
+}
+
+/* ------------------------------------------------------------------------ btn 9 */
+
+.btn9 {
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 15px 70px;
+  border-radius: 15px;
+  border: 5px solid #faf9e5;
+  border-radius: 20px;
+  box-shadow: 0px 8px 5px grey;
+  color: white;
+  font-weight: 600;
+  color: white;
+  font-weight: 600;
+  position: relative;
+  background-color: #ea9537;
+  font-family: "Century Gothic Paneuropean", sans-serif;
+  margin-top: 13px;
+}
+
+.btn9::before {
+  content: "Historical Fiction";
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  right: 1px;
+  bottom: 1px;
+  background-color: #ea9537;
+  font-family: "Century Gothic Paneuropean", sans-serif;
+  color: white;
+  border-top: 3px solid white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.mid_div5 {
+  width: 100%;
+  height: 7vh;
+  border: 2px solid #c7bba8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Century Gothic Paneuropean", sans-serif;
+  font-size: 16px;
+  color: black;
+  font-weight: 600;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-top: 10px;
+}
+
+.btn10 {
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 4px 30px;
+  border-radius: 15px;
+  background-color: #e062b3;
+  color: white;
+  font-weight: 600;
+  position: relative;
+  border: none;
+  outline: none;
+  border-bottom: 4px solid #e062b3;
+  box-shadow: 0px 8px 5px grey;
+  font-family: "Comic Sans MS", sans-serif;
+  margin-top: 10px;
+}
+
+.btn10::before {
+  content: "";
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  right: 1px;
+  bottom: 1px;
+  border: 1px solid white;
+  border-top: 3px solid white;
+  border-radius: 14px;
+  filter: blur(0.2px);
+  box-shadow: 0px 0px 0px #e062b3;
+  font-family: "Comic Sans MS", sans-serif;
+  cursor: pointer;
+}
+
+/* ------------------------------------------------------------------------------ btn11 */
+
+/* ------------------------------------------------------------------------ btn 9 */
+
+.btn11 {
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 15px 50px;
+  border-radius: 15px;
+  border: 5px solid #faf9e5;
+  border-radius: 20px;
+  box-shadow: 0px 8px 5px grey;
+  color: white;
+  font-weight: 600;
+  color: white;
+  font-weight: 600;
+  position: relative;
+  background-color: #c98962;
+  font-family: "Century Gothic Paneuropean", sans-serif;
+  margin-top: 13px;
+}
+
+.btn11::before {
+  content: "Sports";
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  right: 1px;
+  bottom: 1px;
+  background-color: #c98962;
+  font-family: "Century Gothic Paneuropean", sans-serif;
+  color: white;
+  border-top: 3px solid white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.mid_div6 {
+  width: 100%;
+  height: 7vh;
+  border: 2px solid #c7bba8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Century Gothic Paneuropean", sans-serif;
+  font-size: 16px;
+  color: black;
+  font-weight: 600;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-top: 10px;
+}
+
+.btn12 {
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 4px 30px;
+  border-radius: 15px;
+  background-color: #e062b3;
+  color: white;
+  font-weight: 600;
+  position: relative;
+  border: none;
+  outline: none;
+  border-bottom: 4px solid #e062b3;
+  box-shadow: 0px 8px 5px grey;
+  font-family: "Comic Sans MS", sans-serif;
+  margin-top: 10px;
+}
+
+.btn12::before {
+  content: "";
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  right: 1px;
+  bottom: 1px;
+  border: 1px solid white;
+  border-top: 3px solid white;
+  border-radius: 14px;
+  filter: blur(0.2px);
+  box-shadow: 0px 0px 0px #e062b3;
+  font-family: "Comic Sans MS", sans-serif;
+  cursor: pointer;
+}
+
+.btn13 {
+  position: absolute;
+  bottom: 0%;
+  left: 51%;
+  transform: translate(-50%, -50%);
+  outline: none;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #36385b49 #36385b9b #36385b9b #36385b9b; /* Specify border color for each side */
+  border-radius: 30px;
+  padding: 10px 70px; /* Adjust padding as needed */
+  font-size: 22px;
+  font-family: "Comic Sans MS", sans-serif;
+  font-weight: 800;
+  color: #05095bbe;
+  background-color: white;
+  box-shadow: 0px 8px 12px #05095bbe;
+  cursor: pointer;
+  /* outline: 2px solid #050A5B; */
+  /* Adjust box shadow values as needed */
+}
+
+.btn13::before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  border: 1px solid white; /* Specify inner border color */
+  border-radius: 25px;
+  cursor: pointer; /* Adjust inner border radius as needed */
+}
+
+.btn1,
+.btn2,
+.btn3,
+.btn4,
+.btn5,
+.btn6,
+.btn7,
+.btn8,
+.btn9,
+.btn10,
+.btn11,
+.btn12 {
+  transition: transform 0.3s ease-in-out;
+}
+
+.btn1:active,
+.btn2:active,
+.btn3:active,
+.btn4:active,
+.btn5:active,
+.btn6:active,
+.btn7:active,
+.btn8:active,
+.btn9:active,
+.btn10:active,
+.btn11:active,
+.btn12:active {
+  transform: scale(0.5);
+}
+
+.btn1:active::before,
+.btn2:active::before,
+.btn3:active::before,
+.btn4:active::before,
+.btn5:active::before,
+.btn6:active::before,
+.btn7:active::before,
+.btn8:active::before,
+.btn9:active::before,
+.btn10:active::before,
+.btn11:active::before,
+.btn12:active::before {
+  box-shadow: 0px 0px 0px #dac9b0;
+}
+
+/* -------------------------------------------------------------------------- Stories Css */
+
+/* 
+*{
+  font-family: 'Century Gothic Paneuropean', sans-serif;
+} */
+
+.mainbox {
+  width: 100%;
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Stories {
+  position: absolute;
+  /* background-image: url('../public/sport.png'); */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  /* filter: blur(6px); */
+}
+
+.Sports {
+  position: absolute;
+  /* background-image: url('../public/sports.jpg'); */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  /* filter: blur(6px); */
+}
+
+.Adventure {
+  position: absolute;
+  /* background-image: url('../public/adventure.png'); */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  /* filter: blur(6px); */
+}
+
+.Mystery {
+  position: absolute;
+  /* background-image: url('../public/mystery.png'); */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  /* filter: blur(6px); */
+}
+
+.Science {
+  position: absolute;
+  /* background-image: url('../public/science.png'); */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  /* filter: blur(6px); */
+}
+
+.History {
+  position: absolute;
+  /* background-image: url('../public/historic.png'); */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  /* filter: blur(6px); */
+}
+
+.headerdiv {
+  width: 100%;
+  padding: 0 200px;
+  /* background-color: red; */
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.Stories-header {
+  height: 100%;
+}
+
+.stories-header-left {
+  /* background-color: orange; */
+  background-color: #003366;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 8vh;
+  border-radius: 10px;
+  padding: 0px;
+}
+
+.headline-arraow {
+  /* min-height:100%  */
+  min-height: 5.3vh;
+  width: 1px;
+  background-color: white;
+  position: relative;
+}
+.arrow_div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: black;
+  font-size: 12px;
+}
+
+.button-header-1 {
+  position: relative;
+  border: none;
+  font-weight: 600;
+  font-size: 18px;
+  cursor: pointer;
+  background-color: transparent;
+  text-decoration: none;
+  color: white;
+  overflow: hidden; /* To hide overflowing content from pseudo-element */
+}
+
+.button-header-1::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 4px; /* Adjust the height as needed */
+  background-color: white;
+  transition: width 0.3s ease; /* Adjust the transition duration and timing function */
+}
+
+.button-header-1:hover::before {
+  width: 100%;
+}
+
+/* ----------------------------------------------------------------sub header */
+
+.stories-header-left_2 {
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 0;
+  border-radius: 10px;
+  opacity: 0;
+  border: 1px solid #003366;
+  transition: opacity 0.3s ease-in-out, height 0.3s ease-in-out;
+}
+
+.stories-header-left_2.visible {
+  height: 57px;
+  opacity: 1;
+  padding: 2px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.headline-arraow-2 {
+  /* min-height:100%  */
+  min-height: 7vh;
+  width: 1px;
+  background-color: #003366;
+  position: relative;
+}
+.arrow_div-2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #003366;
+  color: white;
+  font-size: 12px;
+}
+
+.button-header-2 {
+  position: relative;
+  border: none;
+  font-weight: 600;
+  font-size: 12px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  text-decoration: none;
+  color: #003366;
+  overflow: hidden; /* To hide overflowing content from pseudo-element */
+}
+
+.button-header-2::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 4px; /* Adjust the height as needed */
+  background-color: #003366;
+  transition: width 0.3s ease; /* Adjust the transition duration and timing function */
+}
+
+.button-header-2:hover::before {
+  width: 100%;
+}
+
+.button-header-2.active {
+  /* box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.1); */
+  /* background-color: #003366;  */
+  border-radius: 5px; /* Change to the desired active background color */
+  color: #003366; /* Change to the desired active text color */
+}
+
+.button-header-2.active::before {
+  width: 100%;
+}
+
+/* ---------------------------------------buton header 3 */
+
+.stories-header-left_3 {
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 0;
+  border-radius: 10px;
+  opacity: 0;
+  /* border: 1px solid #003366; */
+  transition: opacity 0.3s ease-in-out, height 0.3s ease-in-out;
+}
+
+.stories-header-left_3.visible {
+  height: 10%;
+  flex-direction: column;
+  opacity: 1;
+  padding: 2px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.button-header-3 {
+  position: relative;
+  border: none;
+  font-weight: 600;
+  font-size: 12px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  text-decoration: none;
+  color: #003366;
+  overflow: hidden;
+  transition: color 0.3s ease; /* Added transition for color change */
+}
+
+.button-header-3::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 4px;
+  background-color: #003366;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  transition: width 0.3s ease;
+}
+
+.button-header-3:hover::before {
+  width: 100%;
+}
+
+.button-header-3.active {
+  color: #003366;
+}
+
+.button-header-3.active::before {
+  width: 100%;
+}
+
+/* ------------------------------------------------------------------------ button header 4 */
+
+.stories-header-left_4 {
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 0;
+  border-radius: 10px;
+  opacity: 0;
+  border: 1px solid #003366;
+  transition: opacity 0.3s ease-in-out, height 0.3s ease-in-out;
+}
+
+.stories-header-left_4.visible {
+  height: 10%;
+  flex-direction: column;
+  opacity: 1;
+  padding: 2px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.button-header-4 {
+  position: relative;
+  border: none;
+  font-weight: 600;
+  font-size: 12px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  text-decoration: none;
+  color: #003366;
+  overflow: hidden;
+  transition: color 0.3s ease; /* Added transition for color change */
+}
+
+.button-header-4::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 4px;
+  background-color: #003366;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  transition: width 0.3s ease;
+}
+
+.button-header-4:hover::before {
+  width: 100%;
+}
+
+.button-header-4.active {
+  color: #003366;
+}
+
+.button-header-4.active::before {
+  width: 100%;
+}
+
+/* -------------------------------------------------------------------------- */
+
+.image-button {
+  position: relative;
+}
+
+.image-button img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  max-width: 30px;
+  border-radius: 6px;
+  border: 1px solid #000;
+}
+.card-style {
+  width: 15rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: 2px solid #c7d7e4;
+  border-radius: 15px;
+  margin-top: 20px;
+  margin-right: 20px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px;
+  /* gap: 25px; */
+}
+
+.card-upper {
+  width: 100%;
+  border-radius: 13px 13px 0px 0px;
+  /* background-color: #0b2e56; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+}
+
+.card-image {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-btn-lower {
+  /* background: linear-gradient(to right, #19dbe9, #eb1165); */
+  color: #fff;
+  font-weight: 600;
+  border-radius: 10px;
+  padding: 5px 20px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-around;
+  background: linear-gradient(180deg, #607d8b, #607d8b -148px, #0b2e56 6px);
+  /* background-color: #021325; */
+  padding: 6px 0px;
+  border-radius: 1px 1px 11px 11px;
+  margin: 0px 5px;
+  margin-top: -61px;
+  margin-bottom: 20px;
+  border-style: solid;
+  border-color: #283953;
+}
+.group-2-btn {
+  border-right-style: groove;
+  border-radius: 22px;
+  display: flex;
+  align-items: center;
+  margin: -6px 3px;
+}
+.btn-secondary {
+  height: fit-content;
+  /* border-radius: 10px; */
+  width: 45px;
+}
+.card-heding {
+  color: #fff;
+}
+
+.container {
+  width: 100%;
+  /* background-color: red; */
+  min-height: 40vh;
+  display: flex;
+  flex-wrap: wrap;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.storiesnadbutton {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.status_button_div {
+  display: flex;
+  /* gap: 10px;  Adjust the gap as needed */
+}
+.status_button_div {
+  /* background-color: red; */
+  /* border: 1px solid #050A5B; */
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  width: 40%;
+  justify-content: space-around;
+  align-items: center;
+  /* width: fit-content; */
+}
+
+.titletext {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+/* //drag? */
+
+/* .back-btn{
+  position: absolute;
+  top: 7%;
+  left: 10%;
+
+} */
+
+/* //tab color? */
+/* CSS for Tab Buttons */
+.Stories-body {
+  width: 80%;
+  /* background-color: red; */
+}
+.btn-fontsize{
+  font-size: 10px !important;
+}
+.tabbutton {
+  width: 100%;
+  padding: 0px 200px;
+}
+.tab {
+  /* flex: 1; */
+  width: 22%;
+  text-align: center;
+  padding: 10px 0;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  cursor: pointer;
+  position: relative; /* Added to position pseudo-element */
+  color: #003366; /* Default text color */
+  transition: color 0.3s ease; /* Smooth transition for text color */
+}
+
+.tab::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 4px; /* Adjust the height as needed */
+  background-color: #003366;
+  transition: width 0.3s ease; /* Adjust the transition duration and timing function */
+}
+
+.tab:hover::before {
+  width: 100%;
+}
+
+.tab.active {
+  border-radius: 5px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-color: white;
+  color: #003366; /* Change to the desired active text color */
+}
+
+.tab.active::before {
+  /* background-color: white; */
+  width: 100%;
+}
+
+/* //filter button css? */
+.All_btn,
+.Complete_btn,
+.Pending_btn,
+.Incomplete_btn {
+  color: white;
+  border: 1px solid white;
+  margin-right: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  height: 4vh;
+  text-decoration: none;
+  /* padding: 0px 25px; */
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #9dbca7;
+  color: white;
+  border-radius: 7px;
+}
+
+.All_btn:hover,
+.Complete_btn:hover,
+.Pending_btn:hover,
+.Incomplete_btn:hover {
+  background-color: white;
+  color: #0b2e56;
+}
+
+.All_btn.selected,
+.Complete_btn.selected,
+.Pending_btn.selected,
+.Incomplete_btn.selected {
+  background-color: white;
+  color: #0b2e56;
+}
+
+/* shake card css for wordexplore */
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+  75% {
+    transform: translateX(-5px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.shake {
+  animation: shake 0.5s ease-in-out;
+}
+
+.dnd-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  /* background-color: red; */
+}
+
+.dnd-draggable {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 50%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: 1000px; /* Adjust the height as needed */
+  /* background-color: purple; */
+}
+
+.dnd-draggable::-webkit-scrollbar {
+  width: 8px; /* Adjust the width of the scrollbar */
+}
+
+.dnd-draggable::-webkit-scrollbar-track {
+  background: transparent; /* Background color of the scrollbar track */
+}
+
+.dnd-draggable::-webkit-scrollbar-thumb {
+  background: #888; /* Color of the scrollbar thumb */
+  border-radius: 5px; /* Curviness of the scrollbar thumb */
+}
+.dnd-imagewrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 50%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: 1000px; /* Adjust the height as needed */
+}
+
+.dnd-imagewrapper::-webkit-scrollbar {
+  width: 8px; /* Adjust the width of the scrollbar */
+}
+
+.dnd-imagewrapper::-webkit-scrollbar-track {
+  background: transparent; /* Background color of the scrollbar track */
+}
+
+.dnd-imagewrapper::-webkit-scrollbar-thumb {
+  background: #888; /* Color of the scrollbar thumb */
+  border-radius: 5px; /* Curviness of the scrollbar thumb */
+}
+
+.story-wrapper-para {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+  width: 50%;
+}
+
+.story-wrapper-image-wrapper {
+  width: 20%;
+  display: flex;
+  flex-wrap: nowrap;
+  flex: 2;
+  justify-content: center;
+  align-items: center;
+  min-height: auto;
+}
+
+.stories-header-left .button-header-1:nth-child(9) {
+  display: none;
+}
+
+.tab-h6-style {
+  padding: 0px 2px;
+  cursor: pointer;
+}
+
+.tab-h6-style:hover {
+  color: #9dbca7;
+}
+
+/* --------------------------------------------------------------------------Admin css */
+.color-layout {
+  background-color: #0b2e56;
+}
+.flexoutlet {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.overflowdiv {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.admin_links_box_padding {
+  padding: 0px 20px;
+}
+
+.bgofadminmain {
+  background-image: linear-gradient(to bottom, #0b2e56, white);
+}
+
+.borderradiusleftadmin {
+  border-bottom-right-radius: 50px !important;
+}
+.borderradiusrightadmin {
+  border-top-left-radius: 50px !important;
+}
+
+.th {
+  color: rgb(203, 202, 202) !important;
+  font-size: 12px;
+}
+.td {
+  font-size: 12px;
+}
+.form-control {
+  padding: 3px 8px !important;
+  font-size: 12px !important;
+}
+
+.initialpadding {
+  padding: 3px 8px !important;
+  font-size: 12px !important;
+}
+
+.Addteacherimage_box {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  /* min-height: auto; */
+}
+
+.image_storyadvenure_div {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 800px) and (min-width: 200px) {
+  .headerdiv {
+    width: 100%;
+    padding: 0px 10px;
+  }
+
+  .stories-header-left .headline-arraow:nth-child(2) {
+    display: none;
+  }
+
+  .stories-header-left .button-header-1:nth-child(3) {
+    display: none;
+  }
+  .stories-header-left .headline-arraow:nth-child(4) {
+    display: none;
+  }
+  .stories-header-left .button-header-1:nth-child(5) {
+    display: none;
+  }
+  .stories-header-left .headline-arraow:nth-child(6) {
+    display: none;
+  }
+
+  .stories-header-left .button-header-1:nth-child(7) {
+    display: none;
+  }
+
+  .stories-header-left .button-header-1:nth-child(9) {
+    display: initial;
+  }
+  .stories-header-left .button-header-1:nth-child(10) {
+    display: none;
+  }
+  .stories-header-left_2:nth-child(2) {
+    display: none;
+  }
+  .status_button_div {
+    display: none;
+  }
+  .storiesnadbutton {
+    width: 100%;
+    justify-content: center;
+    /* padding: 0px 18px; */
+  }
+  .container {
+    justify-content: center;
+  }
+  .tabbutton {
+    padding: 0px 20px;
+    flex-direction: column;
+  }
+  .outlet_div {
+    height: inherit;
+  }
+  .dnd-wrapper {
+    width: inherit;
+    flex-direction: column;
+  }
+
+  .dnd-draggable {
+    width: 100%;
+  }
+  .dnd-imagewrapper {
+    width: 100%;
+  }
+
+  .story-wrapper-para {
+    width: 95%;
+  }
+  .story-wrapper-image-wrapper {
+    flex-direction: column;
+  }
+  .tab {
+    /* flex: 1; */
+    width: 100%;
+  }
+  /* .stories-header-left_2 .button-header-2 :nth-child(0){
+    display: none;
+  } */
+}

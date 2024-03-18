@@ -1,0 +1,140 @@
+@import url("https://fonts.cdnfonts.com/css/century-gothic-paneuropean");
+
+.topheading {
+  font-size: 45px;
+  margin-top: 20px;
+  color: #0b2e56;
+  /* font-family: 'Times New Roman', Times, serif !important; */
+}
+.tab-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tabbutton {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  width: 50%;
+  /* justify-content: space-around; */
+}
+
+.tab {
+  /* margin-block: 20px; */
+  /* margin-left: 200px; */
+  padding: 10px 20px;
+  cursor: pointer;
+  border: 1px solid #cacaca;
+  border-radius: 10px 10px 0 0;
+  background-color: #ffffff;
+  color: #000000;
+  font-family: "Century Gothic Paneuropean", sans-serif;
+}
+
+.tab.active {
+  background-color: #8cff69;
+  color: #000000;
+}
+
+.content-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tab-content {
+  display: none;
+  padding: 20px;
+  border: 1px solid #dfdfdf;
+  border-radius: 0 0 20px 20px;
+  width: 1200px;
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: #fff;
+  color: #000;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+/* css for the  third page card*/
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* padding: 20px; */
+}
+
+.card {
+  width: calc(33.33% - 20px);
+  /* margin-bottom: 20px; */
+  background-color: #f4f4f4;
+  /* padding: 15px; */
+  border-radius: 8px;
+  width: 150px;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+.image {
+  width: calc(33.33% - 20px);
+  margin-bottom: 20px;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100px;
+  display: contents;
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+  /* display: block; */
+}
+
+.container-row {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+  justify-content: space-around; /* Adjust as needed */
+}
+
+.card {
+  flex: 1;
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+.image {
+  flex: 1;
+  margin: 10px;
+  text-align: center;
+}
+
+.outlet_div {
+  padding: 10px;
+  width: 90%;
+  height: 85vh;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3), 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.outlet_div::-webkit-scrollbar {
+  display: none;
+}
